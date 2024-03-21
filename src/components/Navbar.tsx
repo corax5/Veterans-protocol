@@ -1,37 +1,30 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 const Navbar = () => {
     return (
         <>
-            <section className='section1'>
-                <div className='div-logo mt-2 mb-2 ml-4 grid grid-cols-3 gap-80'>
-                    <Image
-                        src='/images/Isotipo_Negro.svg'
-                        alt="logovets"
-                        width={32}
-                        height={32}
-                        layout="fixed"
-                        objectFit="cover"
-                    />
-                    <div className='linkInventory flex justify-center'>|
-                        <Link href="/linking">
-                            <span className="inventory-button text-button ml-1 mr-1 wp-button hover:text-white" id="inventory">LINKING</span>
-                        </Link>
-                        |
-                        <Link href="/inventory">
-                            <span className="inventory-button text-button ml-1 mr-1 wp-button hover:text-white" id="inventory">INVENTORY</span>
-                        </Link>
-                        |
+            <section className="section1 " id="section1">
+                <div className="div-logo font-extrabold ">
+                    <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} />
+                    <div className='link-home mt-3 '>
+                        <strong> |</strong> <Link className="linking-link hover:text-gray-700" id="wallet-connect" href="/" passHref>
+                            <strong> LINKING</strong>
+                        </Link>  <strong> |</strong>
+                        <Link className="inventory-link hover:text-gray-700" id="wallet-connect" href="/" passHref>
+                            <strong>  INVENTORY </strong>
+                        </Link> <strong> |</strong>
                     </div>
-                    <div className='wallet-button'>
-                        <button>wallet</button>
+                    <div className="btn-nav">
+                        <Link className="wallet-button text-button wp-button" id="wallet-connect" href="/" passHref>
+                            WALLET
+                        </Link>
                     </div>
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
