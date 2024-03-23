@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #ffc74c;
+        fill: #000000; /* Cambia el color a negro */
       }
     </style>
   </defs>

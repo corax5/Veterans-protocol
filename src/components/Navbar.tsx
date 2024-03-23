@@ -7,8 +7,8 @@ const Navbar = () => {
         <>
             <section className="section1 " id="section1">
                 <div className="div-logo font-extrabold ">
-                    <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} />
-                    <div className='link-home mt-3 '>
+                    <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} priority />
+                    <div className='link-home mt-3  '>
                         <strong> |</strong> <Link className="linking-link hover:text-gray-700" id="wallet-connect" href="/" passHref>
                             <strong> LINKING</strong>
                         </Link>  <strong> |</strong>
