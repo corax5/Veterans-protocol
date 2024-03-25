@@ -5,11 +5,11 @@ import Image from 'next/image';
 const Navbar = () => {
     return (
         <>
-            <section className="section1 " id="section1">
-                <div className="div-logo font-extrabold ">
+            <section className="section1 font-extrabold border-b-4  border-black text-center  " id="section1">
+                <div className="div-logo ">
                     <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} priority />
                     <div className='link-home mt-3  '>
-                        <strong> |</strong> <Link className="linking-link hover:text-gray-700" id="wallet-connect" href="/" passHref>
+                        <strong> |</strong> <Link className="linking-link hover:text-gray-700" id="wallet-connect" href="/linking" passHref>
                             <strong> LINKING</strong>
                         </Link>  <strong> |</strong>
                         <Link className="inventory-link hover:text-gray-700" id="wallet-connect" href="/" passHref>

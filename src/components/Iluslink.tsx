@@ -1,16 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Ilustracion = () => {
+const Iluslink = () => {
     return (
         <>
             <div className="ilustracion-container">
                 <div className="ilustracion hidden sm:block">
-                    <Image className='ilust' src="/ilustración.png" alt="viñeta1" width="1250" height="2489" />
+                    <Image className='ilustlink' src="/ilustracion-link.png" alt="viñetalink" width="1080" height="1083" />
                 </div>
             </div>
         </>
     )
 }
 
-export default Ilustracion
+export default Iluslink

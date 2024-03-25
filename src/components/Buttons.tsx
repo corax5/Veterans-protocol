@@ -13,7 +13,7 @@ const Buttons = () => {
                     enhance their relevance and add reputation.</div>
             </div>
             <div className='buttons-top mt-6 mb-10'>
-                <Link href="/V-LINKIG" passHref>
+                <Link href="/linking" passHref>
                     <div className="button-linkventory mr-2 w-32 font-bold" id="linking" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         V - LINKING
                     </div>
