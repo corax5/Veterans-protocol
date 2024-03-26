@@ -69,21 +69,43 @@ body {
   margin-left: 10rem;
 }
 
+.barra {
+  margin-bottom: 130px;
+}
+
 .ilustlink {
-  margin-bottom: 140px;
   object-fit: cover;
-  object-position: 80% 60%;
   position: absolute;
   left: 0;
   right: 0;
-  top: -391px;
+  top: 25px;
   bottom: 0;
-  z-index: 1;
+  z-index: -1;
+  padding: 0;
+  max-width: 100%;
+}
+
+.tables {
+  margin-left: 30%;
+  margin-right: 0;
+  margin-bottom: 80px;
+  width: fit-content;
 
 }
 
+.table1 {
+  border: 3px solid black;
+  margin-bottom: 2px;
+  filter: brightness(40%) hue-rotate(30deg);
+}
+
+.table2 {
+  border: 3px solid black;
+  filter: brightness(40%) hue-rotate(30deg);
+}
+
 .social-button {
-  background-color: FBBF31;
+  background-color: #FBBF31;
   color: #000000;
   border: 1px solid black;
   border-bottom-width: 5px;
@@ -100,7 +122,7 @@ body {
 }
 
 .button-linkventory {
-  background-color: FBBF31;
+  background-color: #FBBF31;
   color: #000000;
   border: 1px solid black;
   border-bottom-width: 5px;
@@ -113,7 +135,7 @@ body {
 }
 
 .button-linkventory2 {
-  background-color: FBBF31;
+  background-color: #FBBF31;
   color: #000000;
   border: 1px solid black;
   border-bottom-width: 5px;
@@ -133,17 +155,17 @@ body {
 
 
 .ilustracion {
-  margin-bottom: 140px;
+
   object-fit: cover;
   object-position: 80% 60%;
   position: absolute;
   left: 0;
   right: 0;
-  top: 430px;
+  top: 640px;
   bottom: 0;
   z-index: 1;
-  width: 2008px;
-  height: 834px;
+  width: 1200px;
+  height: 400px;
 }
 
 .buttons-top {
@@ -164,6 +186,103 @@ body {
   background-color: #D9D9D9;
 }
 
+.form {
+  position: absolute;
+  margin-top: -35%;
+  margin-left: 34%;
+  background-color: whitesmoke;
+  width: 400px;
+  height: 250px;
+  border: 3px solid black;
+}
+
+.titleForm {
+  background-color: #000000;
+  color: #FBBF31;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.AlphaToken {
+  background-color: #FBBF31;
+  color: #000000;
+  border: 1px solid black;
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+  border-radius: 6px;
+  height: 50px;
+  width: 350px;
+  text-align: center;
+  transition: background-color 0.5s ease;
+  z-index: 2;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.AlphaToken:hover {
+  background-color: #D9D9D9;
+}
+
+
+
+.LinkingToken {
+  background-color: #FBBF31;
+  color: #000000;
+  border: 1px solid black;
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+  border-radius: 6px;
+  height: 50px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color 0.5s ease;
+  z-index: 2;
+  margin: 2px;
+  margin-bottom: 20px;
+}
+
+.LinkingToken:hover {
+  background-color: #D9D9D9;
+}
+
+.botonLink {
+  background-color: #FBBF31;
+  color: #000000;
+  border: 1px solid black;
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+  border-radius: 6px;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  transition: background-color 0.5s ease;
+  z-index: 2;
+  margin-left: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.botonLink:hover {
+  background-color: #D9D9D9;
+}
+
+.tokens {
+  margin-left: 20px;
+}
+
 .text {
   width: 20rem;
   align-items: center;
@@ -171,9 +290,6 @@ body {
   margin-left: 36%;
 }
 
-.vets {
-  width: 30vw;
-}
 
 .buttons {
   display: flex;
@@ -220,10 +336,7 @@ body {
   padding: 1rem;
 }
 
-.not-allowed {
-  cursor: not-allowed;
-  opacity: 70%;
-}
+
 
 .not-pointer {
   pointer-events: none;
@@ -234,6 +347,11 @@ body {
   gap: 1rem;
 }
 
+.LinkingToken img {
+  max-width: 100%;
+
+}
+
 .button:hover {
   background-color: #ffc74c;
   color: #000000;
@@ -242,11 +360,13 @@ body {
 
 .footer-copyright {
   position: absolute;
+  margin-top: 80%;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   color: #000000;
   margin-bottom: 1rem;
+  z-index: 9999;
 }
 
 .copyright {

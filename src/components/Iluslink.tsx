@@ -5,10 +5,9 @@ const Iluslink = () => {
     return (
         <>
             <div className="ilustracion-container">
-                <div className="ilustracion hidden sm:block">
-                    <Image className='ilustlink' src="/ilustracion-link.png" alt="viñetalink" width="1080" height="1083" />
-                </div>
+                <Image className='ilustlink p-0 mb-3' src="/ilustracion-link.png" alt="viñetalink" width="1920" height="1095" />
             </div>
+
         </>
     )
 }

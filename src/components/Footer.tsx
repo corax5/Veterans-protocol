@@ -13,7 +13,10 @@ const Footer = () => {
 
     return (
         <>
-            <div className="footer-copyright mt-41 ">
+            <div className='barra'>
+                <Image src="/Vector 9.png" alt="barra" width={1500} height={1000} priority />
+            </div>
+            <div className="footer-copyright">
                 <ul className='social-media z-0'>
                     <li
                         className="social-button mr-2"
@@ -52,7 +55,6 @@ const Footer = () => {
                         <span> <Image src='/Icono_Atlas.svg' alt="Icono Atlas" width={25} height={5} />
                         </span>  </li>
                 </ul>
-
                 <div className='links mr-1 z-10 '>
                     <Link href="/">
                         <span className="home-button  mr-1 ml-1 z-10   hover:text-gray-700 " id="linking">HOME /</span>
