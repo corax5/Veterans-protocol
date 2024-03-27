@@ -82,7 +82,7 @@ body {
   bottom: 0;
   z-index: -1;
   padding: 0;
-  max-width: 100%;
+  max-width: 93%;
 }
 
 .tables {
@@ -188,7 +188,7 @@ body {
 
 .form {
   position: absolute;
-  margin-top: -35%;
+  margin-top: -32%;
   margin-left: 34%;
   background-color: whitesmoke;
   width: 400px;

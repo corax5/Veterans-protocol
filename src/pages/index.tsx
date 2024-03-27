@@ -28,7 +28,7 @@ export default function Home() {
                 V - LINKING
               </div>
             </Link>
-            <Link href="/INVENTORY" passHref>
+            <Link href="/inventory" passHref>
               <div className="button-linkventory2 mr-2 w-32 font-bold" id="inventory" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
                 INVENTORY
               </div>

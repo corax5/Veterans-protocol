@@ -18,7 +18,7 @@ const Buttons = () => {
                         V - LINKING
                     </div>
                 </Link>
-                <Link href="/INVENTORY" passHref>
+                <Link href="/inventory" passHref>
                     <div className="button-linkventory mr-2 w-32 font-bold" id="inventory" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         INVENTORY
                     </div>

@@ -11,10 +11,10 @@ const Navbar = () => {
                         <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} priority />
                     </Link>
                     <div className='link-home mt-3  '>
-                        <strong> |</strong> <Link className="linking-link hover:text-gray-700" id="wallet-connect" href="/linking" passHref>
+                        <strong> |</strong> <Link className="linking-link hover:text-gray-500" id="wallet-connect" href="/linking" passHref>
                             <strong> LINKING</strong>
                         </Link>  <strong> |</strong>
-                        <Link className="inventory-link hover:text-gray-700" id="wallet-connect" href="/" passHref>
+                        <Link className="inventory-link hover:text-gray-500" id="wallet-connect" href="/inventory" passHref>
                             <strong>  INVENTORY </strong>
                         </Link> <strong> |</strong>
                     </div>
