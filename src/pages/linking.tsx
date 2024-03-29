@@ -2,9 +2,21 @@ import Footer from '@/components/Footer'
 import Iluslink from '@/components/Iluslink'
 import Navbar from '@/components/Navbar'
 import Table from '@/components/Table'
-import React from 'react'
+import React, { useState } from 'react'
 
 const linking = () => {
+
+    const [walletConnected, setwalletConnected] = useState(false);
+
+
+    // Function to connect the wallet
+    const connectWallet = () => {
+        // Here you should have logic to connect the wallet
+        // For example:
+        // setWalletConnected(true);
+    };
+
+
     return (
         <>
             <Navbar />
@@ -16,18 +28,17 @@ const linking = () => {
                 </div>
                 <div className='container-form'>
                     <div className='tokens'>
-                        <div className='AlphaToken'>
-                            <button>Alpha Token</button>
-                        </div>
-                        <div className='LinkingToken'>
-                            <button>V-LINKING TOKEN</button>
-                        </div>
+                        <button className='AlphaToken' type='submit'>Alpha Token </button>
                     </div>
-                    <div className='botonLink'>
-                        <button>LINK NFT</button>
-                    </div>
+                    <button className='LinkingToken'>
+                        V-LINKING TOKEN
+                    </button>
+                </div>
+                <div className='botonLink'>
+                    <button disabled={!walletConnected}>{/* Agrega la lógica para link to nft */}LINK NFT</button>
                 </div>
             </div>
+
             <Footer />
         </>
     )

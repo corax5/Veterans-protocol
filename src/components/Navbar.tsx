@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Navbar = () => {
     return (
         <>
-            <section className="section1 font-extrabold border-b-4  border-black text-center  " id="section1">
+            <section className="section1 font-extrabold border-b-4  border-black text-center" id="section1">
                 <div className="div-logo ">
                     <Link href="/">
                         <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} priority />

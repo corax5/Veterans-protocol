@@ -5,7 +5,7 @@ const Buttons = () => {
     return (
         <>
             <div className='texto'>
-                <div className="title font-bold mt-10 text-center">
+                <div className="title mt-10 text-center">
                     LINK YOUR EXPERIENCE
                 </div>
                 <div className="text-link mx-auto text-center mt-4">V-Links redefines interaction  with NFTs in Solana, allowing  access to 'vlinks'
