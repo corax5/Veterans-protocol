@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 
 const linking = () => {
 
-    const [walletConnected, setwalletConnected] = useState(false);
+    // const [walletConnected, setwalletConnected] = useState(false);
 
 
     // Function to connect the wallet
@@ -35,7 +35,8 @@ const linking = () => {
                     </button>
                 </div>
                 <div className='botonLink'>
-                    <button disabled={!walletConnected}>{/* Agrega la lógica para link to nft */}LINK NFT</button>
+                    <button
+                    >{/* Agrega la lógica para link to nft */}LINK NFT</button>
                 </div>
             </div>
 

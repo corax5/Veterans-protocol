@@ -8,7 +8,7 @@ const Buttons = () => {
                 <div className="title mt-10 text-center">
                     LINK YOUR EXPERIENCE
                 </div>
-                <div className="text-link mx-auto text-center mt-4">V-Links redefines interaction  with NFTs in Solana, allowing  access to 'vlinks'
+                <div className="text-link mx-auto text-center mt-4">V-Links redefines interaction  with NFTs in Solana, allowing  access to &apos;vlinks&apos;
                     through web  experiences3, which can be  linked to your favorite NFTs to
                     enhance their relevance and add reputation.</div>
             </div>
