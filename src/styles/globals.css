@@ -33,16 +33,13 @@ body {
   font-family: "public/fonts/MonumentExtended-Regular.otf";
 }
 
-.div-logo {
+
+.section1 {
+  padding: 0rem;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
-  /* position: absolute; */
-}
-
-.section1 {
-  padding: 0rem;
 }
 
 .div-logo-footer {
@@ -93,11 +90,11 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 515px;
+  top: 615px;
   bottom: 0;
   z-index: 1;
-  width: 1300px;
-  height: 400px;
+  width: 1400px;
+  height: 500px;
 }
 
 
@@ -106,11 +103,11 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  top: 24px;
+  top: 20px;
   bottom: 0;
   z-index: -1;
   padding: 0;
-  max-width: 105%;
+  max-width: 103%;
 }
 
 .tables {

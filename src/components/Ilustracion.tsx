@@ -6,7 +6,7 @@ const Ilustracion = () => {
         <>
             <div className="ilustracion-container">
                 <div className="ilustracion hidden sm:block">
-                    <Image className='ilust' src="/ilustración.png" alt="viñeta1" width="1500" height="1080" />
+                    <Image className='ilust' src="/Ilustracion.png" alt="viñeta1" width="1500" height="1080" />
                 </div>
             </div>
         </>
