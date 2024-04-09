@@ -57,7 +57,7 @@ const Navbar = () => {
 
 
                 </button>
-                <div className={`w-start ml-0 md:w-${menuVisible ? 'full' : '80'} ${menuVisible ? '' : 'hidden md:block'}`} id="navbar-default">
+                <div className={`w-start ml-14 md:w-${menuVisible ? 'full' : '80'} ${menuVisible ? '' : 'hidden md:block'}`} id="navbar-default">
                     <strong> |</strong> <Link className="linking-link hover:text-gray-500" id="wallet-connect" href="/linking" passHref>
                         <strong> LINKING</strong>
                     </Link>  <strong> |</strong>

@@ -22,9 +22,9 @@ export default function Home() {
 
         <div className="container mt-10 flex justify-center items-center">
           <div className="viñetas flex flex-col items-center">
-            <Image src="/viñeta1.png" alt="viñeta1" width={1218} height={624} className="viñeta1 mb-2" priority={true} />
-            <Image src="/viñeta2.png" alt="viñeta2" width={1218} height={624} className="viñeta2 mb-2" priority={true} />
-            <Image src="/viñeta3.png" alt="viñeta3" width={1218} height={624} className="viñeta3 mb-56" priority={true} />
+            <Image src="/viñeta1.png" alt="viñeta1" width={5218} height={624} className="viñeta1 mb-2" priority={true} />
+            <Image src="/viñeta2.png" alt="viñeta2" width={5218} height={624} className="viñeta2 mb-2" priority={true} />
+            <Image src="/viñeta3.png" alt="viñeta3" width={5218} height={624} className="viñeta3 mb-56" priority={true} />
           </div>
           <div className="buttons-img">
             <Link href="/linking" passHref>
