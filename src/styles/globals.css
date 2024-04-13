@@ -182,18 +182,16 @@ body {
 }
 
 
-
 .ilustracion {
   object-fit: cover;
   object-position: 80% 60%;
   position: absolute;
   left: 0;
   right: 0;
-  top: 570px;
+  top: 395px;
   bottom: 0;
-  z-index: 2;
+  z-index: 1;
 }
-
 
 .ilustlink {
   object-fit: cover;
