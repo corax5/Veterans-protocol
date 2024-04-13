@@ -5,7 +5,7 @@ const Viñetas = () => {
     return (
         <>
             <div className="container">
-                <video className='viñeta1' width="1218" height="624" autoPlay controlsList="" loop>
+                <video className='viñeta1' width="1218" height="624" autoPlay   controlsList="" loop>
                     <source src="/MEDIA_1_CONTENT.mp4" type="video/mp4" />
                 </video>
                 <div className='section2'>
