@@ -36,7 +36,7 @@ const Navbar = () => {
             <section className="section1 font-extrabold border-b-4  border-black text-center" id="section1">
                 <div className="div-logo">
                     <Link href="/">
-                        <Image src="/Isotipo_Negro.svg" alt="logo" width={30} height={30} priority />
+                        <Image src="/Isotipo_Negro.svg" alt="logo" width={37} height={31} priority />
                     </Link>
                 </div>
                 <button

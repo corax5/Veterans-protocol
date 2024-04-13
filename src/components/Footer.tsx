@@ -22,7 +22,7 @@ const Footer = () => {
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
                         onClick={() => handleRedirect('https://twitter.com/veterans_crew')}
                     >
-                        <span> <Image src='/Icono_X.svg' alt="Icono X" width={25} height={5} /></span>
+                        <span> <Image src='/Icono_X.svg' alt="Icono X" width={22} height={22} /></span>
                     </li>
 
                     <li
@@ -31,7 +31,7 @@ const Footer = () => {
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
                         onClick={() => handleRedirect('https://discord.com/invite/veterans')}
                     >
-                        <span><Image src='/Icono_Discor.svg' alt="Icono Discord" width={25} height={5} />
+                        <span><Image src='/Icono_Discor.svg' alt="Icono Discord" width={30} height={30} />
                         </span>
                     </li>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
                         onClick={() => handleRedirect('https://exchange.art/veterans/nfts')}
                     >
-                        <span><Image src='/Icono_Exchange Art.svg' alt="Icono Exchange" width={25} height={5} />
+                        <span><Image src='/Icono_Exchange Art.svg' alt="Icono Exchange" width={19} height={20} />
                         </span>   </li>
 
                     <li
@@ -50,7 +50,7 @@ const Footer = () => {
                         style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}
                         onClick={() => handleRedirect('https://atlas3.io/project/veterans')}
                     >
-                        <span> <Image src='/Icono_Atlas.svg' alt="Icono Atlas" width={25} height={5} />
+                        <span> <Image src='/Icono_Atlas.svg' alt="Icono Atlas" width={25} height={24} />
                         </span>  </li>
                 </ul>
                 <div className='links mr-1 z-10 '>
