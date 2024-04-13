@@ -57,6 +57,7 @@ body {
   font-size: larger;
 }
 
+/* viñetas main page */
 .viñeta1 {
   border: 3px solid black;
 }
@@ -98,6 +99,7 @@ body {
   margin-left: 1rem;
 }
 
+/* bubbles main */
 .bubble-complete {
   z-index: 1;
   position: absolute;
@@ -157,7 +159,7 @@ body {
   margin-left: 15%;
 }
 
-
+/* social-media buttons */
 
 .social-media {
   display: flex;
@@ -273,19 +275,6 @@ body {
 }
 
 
-
-.ilustracion {
-  object-fit: cover;
-  object-position: 80% 60%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 515px;
-  bottom: 0;
-  z-index: 1;
-  width: 1300px;
-  height: 400px;
-}
 
 .buttons-top {
   display: flex;
