@@ -27,8 +27,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   min-width: 100vw;
-  margin: 0;
-  padding: 0;
   background-color: #FBBF31;
   font-family: "public/fonts/MonumentExtended-Regular.otf";
 }
@@ -59,10 +57,107 @@ body {
   font-size: larger;
 }
 
-
-.viñetas {
-  margin-bottom: 5px;
+.viñeta1 {
+  border: 3px solid black;
 }
+
+.viñeta2 {
+  border: 3px solid black;
+  margin-right: 1rem;
+}
+
+.viñeta3 {
+  border: 3px solid black;
+}
+
+.viñeta4 {
+  border: 3px solid black;
+}
+
+.viñeta5 {
+  margin-bottom: 1rem;
+}
+
+.viñeta6 {
+  border: 3px solid black;
+}
+
+.section2 {
+  margin-top: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.section3 {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10rem;
+}
+
+.section4 {
+  margin-left: 1rem;
+}
+
+.bubble-complete {
+  z-index: 999;
+  position: absolute;
+  margin-top: 29%;
+  margin-left: 8%;
+}
+
+.text-bubble1 {
+  width: 797px;
+  margin-top: -20%;
+  position: absolute;
+  font-size: small;
+  margin-left: 2%;
+}
+
+.bubble-complete2 {
+  z-index: 999;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 0%;
+}
+
+.bubble2 {
+  margin-top: 110%;
+  margin-left: 50%;
+}
+
+.text-bubble2 {
+  width: 374px;
+  margin-top: -50%;
+  position: absolute;
+  font-size: small;
+  margin-left: 55%;
+}
+
+
+.bubble3-complete {
+  z-index: 999;
+  position: absolute;
+  margin-top: 97%;
+  margin-left: 26%;
+}
+
+.bubble3-title {
+  margin-top: -38%;
+  position: absolute;
+  font-size: x-large;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+.text-bubble3 {
+  width: 344px;
+  margin-top: -26%;
+  position: absolute;
+  font-size: small;
+  margin-left: 15%;
+}
+
+
 
 .social-media {
   display: flex;
@@ -74,15 +169,19 @@ body {
 
 .text-link {
   width: 55rem;
+  font-style: oblique;
+  src: url(/fonts/MonumentExtended-Regular.otf) format('opentype');
 }
 
 .container {
-  margin-left: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  z-index: 0;
+  position: relative;
 }
 
-.barra {
-  margin-bottom: 130px;
-}
+
 
 .ilustracion {
   object-fit: cover;
@@ -439,622 +538,4 @@ body {
   display: flex;
   margin-right: 1rem;
   margin-left: 1rem;
-}
-
-@media screen and (min-width: 2560px) {
-  html {
-    width: max-content;
-  }
-
-  .form {
-    position: absolute;
-    margin-top: -30%;
-    margin-left: 37%;
-    background-color: whitesmoke;
-    width: 25%;
-    height: 25%;
-    border: 3px solid black;
-  }
-
-  .tables {
-    margin-left: 33%;
-    margin-right: 1px;
-    margin-bottom: 4.5%;
-    margin-top: 7%;
-    width: fit-content;
-  }
-
-  .tokens {
-    margin-left: 20%;
-    width: 500px;
-  }
-
-  .container {
-    margin-left: 20rem;
-  }
-
-  .footer-copyright {
-    width: max-content;
-  }
-
-  .ilustracion {
-    object-position: 80% 60%;
-    position: absolute;
-    left: 0px;
-    right: 10px;
-    top: 400px;
-    bottom: 0;
-    z-index: 1;
-    width: max-content;
-    height: max-content;
-    margin-right: 500px;
-  }
-
-  .viñeta1 {
-    width: 100%;
-  }
-
-  .body {
-    width: 100%;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-
-  .ilustlink {
-    width: fit-content;
-
-  }
-
-}
-
-@media screen and (min-width: 1911px) {
-  .ilustracion {
-    top: 659px;
-  }
-
-  .container {
-    margin-left: 22rem;
-  }
-
-}
-
-@media screen and (min-width: 1550px) {
-  .ilustracion {
-    top: 32.7%
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  html {
-    width: max-content;
-  }
-
-  .container {
-    margin-left: 49rem;
-  }
-
-
-
-  .ilustracion {
-    object-position: 80% 60%;
-    position: absolute;
-    left: 0px;
-    right: 10px;
-    top: 235px;
-    bottom: 0;
-    z-index: 1;
-    width: max-content;
-    height: 500px;
-    margin-right: 50px;
-  }
-
-  .viñeta1 {
-    width: 100%;
-  }
-
-  .body {
-    width: 100%;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-
-
-}
-
-@media screen and (max-width: 1200px) {
-
-  html {
-    width: max-content;
-  }
-
-  .text-link {
-    font-size: 25px;
-    padding: 22px;
-  }
-
-  .viñeta1 {
-    width: 100%;
-  }
-
-  .ilustracion {
-    top: -4.5%;
-    width: max-content;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-
-  .div-logo {
-    margin: 0;
-  }
-
-  .footer-copyright {
-    width: max-content;
-  }
-
-  .buttons-top {
-    width: max-content;
-    margin-left: 45%;
-    margin-bottom: 4rem;
-  }
-
-  .barra {
-    width: 100%;
-  }
-
-  .texto {
-    margin-left: 10px;
-  }
-
-
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 56rem;
-    height: 45%;
-  }
-
-  .viñetas {
-    width: 100%;
-    height: 100%;
-    margin-left: 1rem;
-    margin-right: -50px;
-    margin-bottom: -3px;
-  }
-
-  .buttons-img {
-    width: 40px;
-    top: 50px
-  }
-
-  .button-linkventory2 {
-    width: 55px;
-    top: -70px;
-    right: 40px;
-    font-size: 5px;
-    height: 20px;
-  }
-
-  .form {
-    margin-top: -31%;
-    margin-left: 38%;
-    width: 407px;
-    margin-right: 7%;
-  }
-
-  .LinkingToken {
-    width: 365px;
-  }
-
-  .AlphaToken {
-    width: 365px;
-  }
-
-  .botonLink {
-    width: 190px;
-    margin-left: 110px;
-  }
-
-  .tables {
-    margin-right: 11px;
-    margin-top: 5%;
-    margin-left: 34%;
-    margin-bottom: 4%;
-  }
-
-
-  .title {
-    font-size: larger;
-  }
-
-  .link-home {
-    margin-left: 0px;
-    margin-bottom: 5px;
-  }
-
-  .linking-link,
-  .inventory-link {
-    font-size: 10px;
-  }
-
-}
-
-
-@media screen and (max-width: 990px) {
-  html {
-    width: max-content;
-  }
-
-  .viñeta1 {
-    width: 100%;
-  }
-
-  .ilustracion {
-    top: 8.5%;
-    width: 1200px;
-    height: 500px;
-  }
-
-  .ilustlink {
-    width: 1900px;
-    height: 1100px;
-    margin: 0;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-
-  .div-logo {
-    margin: 0;
-  }
-
-  .footer-copyright {
-    width: max-content;
-  }
-
-  .buttons-top {
-    width: max-content;
-    margin-left: 40%;
-    margin-bottom: 4rem;
-  }
-
-  .barra {
-    width: 100%;
-  }
-
-  .texto {
-    margin-left: 10px;
-  }
-
-  .text-link {
-    font-size: 15px;
-    padding: 12px;
-  }
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 24rem;
-    height: 45%;
-  }
-
-  .viñetas {
-    width: 100%;
-    height: 100%;
-    margin-left: 1rem;
-    margin-right: -50px;
-    margin-bottom: -3px;
-  }
-
-  .buttons-img {
-    width: 40px;
-    top: 50px
-  }
-
-  .button-linkventory2 {
-    width: 55px;
-    top: -70px;
-    right: 40px;
-    font-size: 5px;
-    height: 20px;
-  }
-
-  .form {
-    margin-top: -45%;
-    margin-left: 36%;
-    width: 450px;
-    margin-right: 7%;
-    z-index: 2;
-  }
-
-  .LinkingToken {
-    width: 390px;
-  }
-
-  .AlphaToken {
-    width: 388px;
-  }
-
-  .botonLink {
-    width: 220px;
-    margin-left: 110px;
-  }
-
-  .tables {
-    margin-right: 11px;
-    margin-top: 10%;
-    margin-left: 34%;
-    margin-bottom: 14.5%;
-
-  }
-
-  .ilustlink {
-    width: 6000px;
-    top: 2px
-  }
-
-  .title {
-    font-size: larger;
-  }
-
-  .link-home {
-    margin-left: 0px;
-    margin-bottom: 5px;
-  }
-
-  .linking-link,
-  .inventory-link {
-    font-size: 10px;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  html {
-    width: max-content;
-  }
-
-  .texto {
-    margin-left: 30%;
-  }
-
-  .viñeta1 {
-    width: 100%;
-  }
-
-  .ilustracion {
-    top: 10.2%;
-    width: 1200px;
-    height: 500px;
-  }
-
-  .buttons-top {
-
-    width: max-content;
-    margin-left: 54%;
-    margin-bottom: 4rem;
-  }
-
-  .body {
-    width: fit-content;
-    margin-bottom: 35px;
-  }
-
-  .ml-14 {
-    margin-left: -0.5rem;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  html {
-    width: fit-content;
-  }
-
-  .viñeta1 {
-    width: 100%;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-
-  .div-logo {
-    margin: 0;
-  }
-
-  .footer-copyright {
-    width: max-content;
-  }
-
-  .buttons-top {
-    width: max-content;
-    margin-left: 25px;
-    margin-bottom: 4rem;
-  }
-
-  .barra {
-    width: 100%;
-  }
-
-  .texto {
-    margin-left: 0px;
-  }
-
-  .text-link {
-    width: fit-content;
-    font-size: 10px;
-    padding: 12px;
-  }
-
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0rem;
-    height: 580px;
-  }
-
-  .viñetas {
-    width: 100%;
-    height: 100%;
-    margin-left: 1rem;
-    margin-right: -22px;
-    margin-bottom: 40px;
-  }
-
-  .buttons-img {
-    width: 40px;
-    top: 50px
-  }
-
-  .button-linkventory2 {
-    width: 55px;
-    top: -70px;
-    right: 40px;
-    font-size: 5px;
-    height: 20px;
-  }
-
-  .form {
-    margin-top: -100%;
-    margin-left: 9%;
-    width: 330px;
-    margin-right: 7%;
-  }
-
-  .LinkingToken {
-    width: 288px;
-  }
-
-  .AlphaToken {
-    width: 288px;
-  }
-
-  .botonLink {
-    width: 120px;
-    margin-left: 110px;
-  }
-
-  .tables {
-    margin-right: 12px;
-    margin-top: 13%;
-    margin-left: 5%;
-    margin-bottom: 25%;
-  }
-
-  .ilustlink {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
-  .title {
-    font-size: larger;
-  }
-
-  .link-home {
-    margin-left: 0px;
-    margin-bottom: 5px;
-  }
-
-  .linking-link,
-  .inventory-link {
-    font-size: 10px;
-  }
-
-  .ml-14 {
-    margin-left: -0.5rem;
-  }
-
-  /* #navbar-default {
-    display: flex;
-   
-  } */
-}
-
-@media screen and (max-width: 375px) {
-  .section1 {
-    width: 100%;
-  }
-
-  .ml-14 {
-    margin-left: -0.5rem;
-  }
-
-  .text-button {
-    font-size: 9px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0rem;
-  }
-}
-
-
-@media screen and (max-width: 320px) {
-
-  .form {
-    margin-left: 7%;
-    width: 285px;
-    margin-top: -110%;
-  }
-
-  .ml-14 {
-    margin-left: -0.5rem;
-  }
-
-  .section1 {
-    width: 100%;
-  }
-
-  .text-button {
-    font-size: 9px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0rem;
-  }
-
-  .AlphaToken {
-    width: 240px;
-  }
-
-  .LinkingToken {
-    width: 240px;
-  }
-
-  .viñetas {
-    width: 100%;
-    height: 100%;
-    margin-left: 1rem;
-    margin-right: -22px;
-    margin-bottom: 9px;
-  }
-
-  .ilustlink {
-    width: 0;
-    height: 0;
-  }
-
-  .botonLink {
-    width: 133px;
-    margin-left: 79px;
-  }
-
-  .galery {
-    margin-left: 1rem;
-  }
 }

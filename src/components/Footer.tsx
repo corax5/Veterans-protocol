@@ -13,9 +13,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className='barra'>
-                <Image src="/Vector 9.png" alt="barra" width={3000} height={1000} priority />
-            </div>
+
             <div className="footer-copyright">
                 <ul className='social-media z-0'>
                     <li

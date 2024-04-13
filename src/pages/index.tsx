@@ -6,6 +6,10 @@ import Image from "next/image";
 import Buttons from '../components/Buttons';
 import Ilustracion from "@/components/Ilustracion";
 import { useState } from "react";
+import Viñetas from "@/components/Viñetas";
+import Bubble1 from "@/components/Bubble1";
+import Bubble3 from "@/components/Bubble3";
+import Bubble2 from "@/components/Bubble2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,33 +20,27 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="body">
+      <Buttons />
+      <Bubble1 />
+      <Bubble2 />
+      <Bubble3 />
+      <Viñetas />
 
-        <Buttons />
-
-        <div className="container mt-10 flex justify-center items-center">
-          <div className="viñetas flex flex-col items-center">
-            <Image src="/viñeta1.png" alt="viñeta1" width={5218} height={624} className="viñeta1 mb-2" priority={true} />
-            <Image src="/viñeta2.png" alt="viñeta2" width={5218} height={624} className="viñeta2 mb-2" priority={true} />
-            <Image src="/viñeta3.png" alt="viñeta3" width={5218} height={624} className="viñeta3 mb-56" priority={true} />
+      <div className="buttons-img">
+        <Link href="/linking" passHref>
+          <div className="button-linkventory2 mr-2 w-32 font-bold" id="linking" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
+            <h1>V - LINKING</h1>
           </div>
-          <div className="buttons-img">
-            <Link href="/linking" passHref>
-              <div className="button-linkventory2 mr-2 w-32 font-bold" id="linking" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
-                <h1>V - LINKING</h1>
-              </div>
-            </Link>
-            <Link href="/inventory" passHref>
-              <div className="button-linkventory2 mr-2 w-32 font-bold" id="inventory" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
-                INVENTORY
-              </div>
-            </Link>
+        </Link>
+        <Link href="/inventory" passHref>
+          <div className="button-linkventory2 mr-2 w-32 font-bold" id="inventory" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
+            INVENTORY
           </div>
-        </div>
-        <Ilustracion />
+        </Link>
       </div>
-
+      <Ilustracion />
       <Footer />
     </>
+
   );
 }
