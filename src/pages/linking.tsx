@@ -3,6 +3,7 @@ import Iluslink from '@/components/Iluslink'
 import Navbar from '@/components/Navbar'
 import Table from '@/components/Table'
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 const linking = () => {
 
@@ -19,9 +20,9 @@ const linking = () => {
 
     return (
         <>
-            <Navbar />
-            <Iluslink />
-            <Table />
+            <Navbar /><Table />
+
+
             <div className='form'>
                 <div className='titleForm'>
                     LINKTOKEN
@@ -45,7 +46,8 @@ const linking = () => {
                     >{/* Agrega la lógica para link to nft */}LINK NFT</button>
                 </div>
             </div >
-
+            <Iluslink />
+            <Image className='margen' src="/vector9" alt="margen" width="1921" height="0" />
             <Footer />
         </>
     )
