@@ -196,8 +196,6 @@ body {
   position: absolute;
   top: 3.5%;
   z-index: -1;
-  width: max-content;
-  height: max-content;
 }
 
 .margen {
@@ -507,4 +505,276 @@ body {
   display: flex;
   margin-right: 1rem;
   margin-left: 2px;
+}
+
+@media (max-width: 320px) {
+  .text-bubble1 {
+    font-size: 14px;
+  }
+
+  .bubble3-title {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section2 {
+    margin-top: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column-reverse;
+  }
+
+  .text-link {
+
+    font-size: 13px;
+  }
+
+  .viñeta1 {
+    margin-bottom: -0.5rem;
+  }
+
+  .viñeta2 {
+    border: 3px solid black;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .viñeta5 {
+    border: 2px solid black;
+  }
+
+  .viñeta4 {
+    width: 55%;
+  }
+
+  .container {
+    margin-left: 10px;
+    margin-bottom: -3rem;
+    width: 95%;
+  }
+
+  .text-link {
+    width: 19rem;
+  }
+
+  .bubble1 {
+    width: 22rem;
+    margin-left: -2rem;
+    margin-top: -1rem;
+  }
+
+  .text-bubble1 {
+    width: 19rem;
+    font-size: 6px;
+    margin-left: -22px;
+    margin-top: -71px;
+  }
+
+  .text-bubble2 {
+    width: 18rem;
+    margin-left: 1rem;
+    font-size: 10px;
+  }
+
+  .bubble-complete2 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 4%;
+    width: 93%;
+  }
+
+
+  .bubble2 {
+    margin-left: 1%;
+  }
+
+  .bubble3 {
+    width: 100%;
+  }
+
+  .bubble3-title {
+    margin-top: -20%;
+    position: absolute;
+    font-size: 11px;
+    margin-left: 7%;
+    font-weight: bold;
+  }
+
+  .text-bubble3 {
+    margin-left: 25px;
+    width: 8.5rem;
+    font-size: 6px;
+    margin-top: -48px;
+  }
+
+  .bubble3-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 231%;
+    margin-left: 28%;
+    left: -5rem;
+    width: 91%;
+  }
+
+  .links {
+    padding: 0rem;
+    display: flex;
+    margin-left: -5rem;
+    flex-direction: row;
+    margin-right: -4rem;
+    justify-content: flex-end;
+  }
+
+  .bubble3 {
+    width: 50%;
+  }
+
+  .footer-copyright {
+    position: absolute;
+    margin-left: 49%;
+    transform: translateX(-50%);
+    color: #000000;
+    margin-bottom: 4%;
+    z-index: 2;
+  }
+
+  .copyright {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    margin-right: -2rem;
+  }
+
+  /* linking */
+
+  .form {
+    margin-top: -91%;
+    margin-left: 12%;
+    width: 77%;
+    height: 251px;
+  }
+
+  .AlphaToken {
+    width: 93%;
+  }
+
+  .LinkingToken {
+    width: 87%;
+  }
+
+  .botonLink {
+    margin-left: 22%;
+    width: 61%;
+  }
+
+  .margen {
+    position: inherit;
+    display: none;
+  }
+
+  .tables {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para dispositivos medianos aquí */
+
+
+  .container {
+    width: 97%;
+    margin-left: 2%;
+  }
+
+  .viñeta2 {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .text-link {
+    width: 42rem;
+  }
+
+  .bubble-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .text-bubble1 {
+    width: 95%;
+    margin-top: -20%;
+    position: absolute;
+    font-size: 11px;
+    margin-left: 2%;
+  }
+
+  .bubble-complete2 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 90%;
+    margin-left: -6%;
+  }
+
+  .bubble3-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 236%;
+    margin-left: 12%;
+  }
+
+  .ilustracion {
+    visibility: hidden;
+  }
+
+  .section2 {
+    margin-top: 0.5rem;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column-reverse;
+  }
+
+  .viñeta4 {
+    width: 55%;
+  }
+
+  .viñeta5 {
+    margin-bottom: 1.7rem;
+  }
+
+  .viñeta6 {
+    border: 3px solid black;
+
+  }
+
+  /* linking */
+
+  .ilustlink {
+    visibility: hidden;
+  }
+
+  .margen {
+    visibility: hidden;
+  }
+
+  .tables {
+    margin-left: 9%;
+    width: 80%;
+  }
+
+  .form {
+    position: absolute;
+    margin-top: -69%;
+    margin-left: 23%;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 250px;
+    border: 3px solid black;
+  }
 }
