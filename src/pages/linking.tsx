@@ -13,8 +13,7 @@ const linking = () => {
     // Function to connect the wallet
     const connectWallet = () => {
         // Here you should have logic to connect the wallet
-        // For example:
-        // setWalletConnected(true);
+        
     };
 
 

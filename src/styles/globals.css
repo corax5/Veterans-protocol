@@ -51,6 +51,13 @@ body {
   width: 2rem;
 }
 
+.margen {
+
+  width: max-content;
+  position: absolute;
+  visibility: hidden;
+}
+
 .link-home {
   font-size: larger;
 }
@@ -777,4 +784,100 @@ body {
     height: 250px;
     border: 3px solid black;
   }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+  .container {
+    margin-left: 0.5%;
+    margin-right: auto;
+    margin-top: 5%;
+    z-index: 0;
+    position: relative;
+  }
+
+  .ilustracion {
+    top: 38.7%
+  }
+
+  .bubble3-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 106%;
+    margin-left: 60%;
+  }
+
+  .bubble-complete2 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: -20%;
+  }
+
+  .tables {
+    margin-left: 37%;
+    width: 40%;
+  }
+
+  .form {
+    margin-left: 40%;
+    margin-top: -45%;
+    width: 35%;
+  }
+
+  .ilustlink {
+    width: 100%;
+    top: 5%;
+  }
+
+  .AlphaToken {
+    width: 95%;
+  }
+
+  .LinkingToken {
+    width: 90%;
+  }
+
+  .botonLink {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 2560px) and (max-width: 7000px) {
+  .ilustracion {
+    top: -39.5%;
+    margin-left: 0%;
+    border: none;
+  }
+
+  .container {
+    margin-left: 35%;
+  }
+
+  .bubble-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 42%;
+  }
+
+  .bubble-complete2 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 27%;
+  }
+
+  .bubble3-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 39%;
+  }
+
+  .ilust {
+    width: 2500px;
+  }
+
 }
