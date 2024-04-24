@@ -27,9 +27,11 @@ const Navbar = () => {
 
     const [menuVisible, setMenuVisible] = useState(false);
 
-    const toggleMenu = () => {
-        setMenuVisible(!menuVisible);
-    };
+    const [isOpen, setIsOpen] = useState(false);
+
+
+
+
 
     return (
         <>
@@ -39,36 +41,33 @@ const Navbar = () => {
                         <Image src="/Isotipo_Negro.svg" alt="logo" width={37} height={31} priority />
                     </Link>
                 </div>
-                <button
-                    data-collapse-toggle="navbar-default"
-                    type="button"
-                    className="inline-flex items-center p-0 w-10 h-10 justify-center text-sm  rounded-lg md:hidden bg-gray-400 text-black border border-black mr-1  focus:outline-none focus:ring-2 "
-                    aria-controls="navbar-default"
-                    aria-expanded={menuVisible ? 'true' : 'false'}
-                    onClick={toggleMenu}
-                    style={{ borderRightWidth: '4px' }}
-                >
 
-
-                    <span className="sr-only">Open menu</span>
-                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1 1h15M1 7h15M1 13h15" />
-                    </svg>
-
-
-                </button>
                 <div className={`w-start ml-14 md:w-${menuVisible ? 'full' : '80'} ${menuVisible ? '' : 'hidden md:block'}`} id="navbar-default">
-                    <strong> |</strong> <Link className="linking-link hover:text-gray-500" id="wallet-connect" href="/linking" passHref>
+                    <strong> |</strong> <Link className="linking-link hover:text-gray-300" id="wallet-connect" href="/linking" passHref>
                         <strong> LINKING</strong>
                     </Link>  <strong> |</strong>
-                    <Link className="inventory-link hover:text-gray-500" id="wallet-connect" href="/inventory" passHref>
+                    <Link className="inventory-link hover:text-gray-300" id="wallet-connect" href="/inventory" passHref>
                         <strong>  INVENTORY </strong>
                     </Link> <strong> |</strong>
                 </div>
                 <div className="btn-nav">
-                    <Link className="wallet-button text-button wp-button" id="wallet-connect" href="/" passHref>
-                        WALLET
-                    </Link></div>
+                    <button className="wallet-button text-button wp-button" onClick={() => setIsOpen(!isOpen)}>
+                        USER WALLET
+                    </button>
+                    <div className={`options ${isOpen ? 'open' : 'closed'}`}>
+                        <div className="option hover:bg-black  hover:text-white">
+                            <Link className="inventory-link  hover:text-white hover: bg" id="wallet-connect" href="/linking" passHref>
+                                V-LINKING
+                            </Link>
+                        </div>
+                        <div className="option hover:bg-black  hover:text-white">
+                            <Link className="inventory-link hover:text-white" id="wallet-connect" href="/inventory" passHref>
+                                INVENTORY
+                            </Link>
+                        </div>
+                        <div className="option hover:bg-black  hover:text-white">DISCONECT</div>
+                    </div>
+                </div>
 
 
             </section >

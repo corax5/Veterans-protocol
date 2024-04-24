@@ -195,7 +195,7 @@ body {
 .ilustracion {
   object-fit: cover;
   position: absolute;
-  top: 410px;
+  top: 18%;
   z-index: 1;
 }
 
@@ -434,6 +434,8 @@ body {
   color: #000000;
   border: solid;
   width: auto;
+  font-size: 10px;
+  border-radius: 5px;
   height: 41px;
   text-align: center;
   transition: background-color 0.5s ease, color 0.5s ease;
@@ -464,6 +466,7 @@ body {
 .btn-nav {
   display: flex;
   gap: 2rem;
+  position: relative;
 }
 
 .LinkingToken img {
@@ -514,13 +517,57 @@ body {
   margin-left: 2px;
 }
 
+
+.options {
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  width: 135px;
+  background-color: #D9D9D9;
+  color: rgb(3, 3, 3);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translateY(5px);
+  transition: transform 0.3s ease-out;
+  overflow: hidden;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+.options.closed {
+  transform: translateY(-1000px);
+}
+
+.option {
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
 @media (max-width: 320px) {
   .text-bubble1 {
     font-size: 14px;
   }
 
+  .text-bubble2 {
+    width: 16rem;
+    margin-left: 0.5rem;
+    font-size: 9px;
+  }
+
   .bubble3-title {
-    font-size: 23px;
+    font-size: 23%;
+  }
+
+  .button-linkventory {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .buttons-top {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
   }
 }
 
@@ -573,7 +620,7 @@ body {
   }
 
   .text-bubble1 {
-    width: 19rem;
+    width: 85%;
     font-size: 6px;
     margin-left: -22px;
     margin-top: -71px;
@@ -689,8 +736,6 @@ body {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  /* Estilos para dispositivos medianos aquí */
-
 
   .container {
     width: 97%;
@@ -786,6 +831,93 @@ body {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1025px) {
+  .bubble-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 5%;
+  }
+
+  .section2 {
+    margin-top: 0.5rem;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: row;
+  }
+
+ 
+
+  .viñeta3 {
+    margin-bottom: 4px;
+  }
+
+  .bubble3-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 114%;
+    margin-left: 16%;
+  }
+
+  .viñeta4 {
+    width: 55%;
+  }
+
+  .viñeta5 {
+    margin-bottom: 1.7rem;
+  }
+
+  .bubble-complete2 {
+    z-index: 1;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: -17%;
+  }
+
+  .ilust {
+    visibility: hidden
+  }
+
+  .section2 {
+    display: flex;
+  }
+
+  .ilustlink {
+    visibility: hidden;
+  }
+
+  .margen {
+    visibility: hidden;
+  }
+
+  .tables {
+    margin-left: 9%;
+    width: 80%;
+  }
+
+  .form {
+    position: absolute;
+    margin-top: -69%;
+    margin-left: 23%;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 250px;
+    border: 3px solid black;
+  }
+
+  .AlphaToken {
+    width: 450px;
+  }
+
+  .LinkingToken {
+    width: 450px;
+  }
+
+  .botonLink {
+    width: 250px;
+  }
+}
+
 @media (min-width: 1024px) and (max-width: 1439px) {
 
   .container {
@@ -844,7 +976,7 @@ body {
   }
 }
 
-@media (min-width: 2560px) and (max-width: 7000px) {
+@media (min-width: 2560px) and (max-width: 8000px) {
   .ilustracion {
     top: -39.5%;
     margin-left: 0%;
