@@ -217,6 +217,17 @@ body {
   width: fit-content;
 }
 
+.alpha {
+  margin-right: 4rem;
+}
+
+.vlinking {
+  margin-right: 1.5rem;
+}
+
+
+
+
 .table1 {
   border: 3px solid black;
   margin-bottom: 2px;
@@ -569,6 +580,8 @@ body {
     margin-bottom: 1rem;
     justify-content: space-evenly;
   }
+
+
 }
 
 @media (max-width: 480px) {
@@ -846,7 +859,7 @@ body {
     flex-direction: row;
   }
 
- 
+
 
   .viñeta3 {
     margin-bottom: 4px;

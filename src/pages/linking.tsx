@@ -13,7 +13,7 @@ const linking = () => {
     // Function to connect the wallet
     const connectWallet = () => {
         // Here you should have logic to connect the wallet
-        
+
     };
 
 
@@ -28,7 +28,13 @@ const linking = () => {
                 </div>
                 <div className='container-form'>
                     <div className='tokens'>
-                        <button className='AlphaToken' type='submit'>Alpha Token </button>
+                        <button className='AlphaToken' type='submit'>
+
+                            <p className='alpha'>Alpha Token</p>
+                            <div className='arrow-alpha'>
+                                <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0.353553" y1="0.621422" x2="5.38297" y2="5.65084" stroke="black"></line><line x1="4.69753" y1="5.67004" x2="9.74641" y2="0.660154" stroke="black"></line></svg>
+                            </div>
+                        </button>
                     </div>
                     <div className='cadena'>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="border border-black ml-4">
@@ -37,7 +43,11 @@ const linking = () => {
                     </div>
 
                     <button className='LinkingToken'>
-                        V-LINKING TOKEN
+                        <p className='vlinking'>V-LINKING TOKEN</p>
+
+                        <div className='arrow-link'>
+                            <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0.353553" y1="0.621422" x2="5.38297" y2="5.65084" stroke="black"></line><line x1="4.69753" y1="5.67004" x2="9.74641" y2="0.660154" stroke="black"></line></svg>
+                        </div>
                     </button>
                 </div>
                 <div className='botonLink'>
