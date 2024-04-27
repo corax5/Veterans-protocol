@@ -28,7 +28,7 @@ export default function Home() {
       <Viñetas />
 
       <div className="buttons-img">
-        <Link href="/linking" passHref>
+        <Link href="/Linking" passHref>
           <div className="button-linkventory2 mr-2 w-32 font-bold" id="linking" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer' }}>
             <h1>V - LINKING</h1>
           </div>

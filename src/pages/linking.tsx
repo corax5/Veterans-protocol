@@ -4,10 +4,12 @@ import Navbar from '@/components/Navbar'
 import Table from '@/components/Table'
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Modallink from '@/components/Modallink'
 
-const linking = () => {
 
-    // const [walletConnected, setwalletConnected] = useState(false);
+const Linking = () => {
+
+    const [WalletConnected, setWalletConnected] = useState(false);
 
 
     // Function to connect the wallet
@@ -15,26 +17,33 @@ const linking = () => {
         // Here you should have logic to connect the wallet
 
     };
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalOpen1, setmodalOpen1] = useState(false);
 
 
     return (
         <>
-            <Navbar /><Table />
+            <Navbar />
+            <Table />
 
 
             <div className='form'>
                 <div className='titleForm'>
                     LINKTOKEN
                 </div>
+                {modalOpen && <Modallink setOpenModal={setModalOpen} />}
                 <div className='container-form'>
                     <div className='tokens'>
-                        <button className='AlphaToken' type='submit'>
-
+                        <button className='AlphaToken' type='submit'
+                            onClick={() => {
+                                setModalOpen(true);
+                            }}>
                             <p className='alpha'>Alpha Token</p>
                             <div className='arrow-alpha'>
                                 <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0.353553" y1="0.621422" x2="5.38297" y2="5.65084" stroke="black"></line><line x1="4.69753" y1="5.67004" x2="9.74641" y2="0.660154" stroke="black"></line></svg>
                             </div>
                         </button>
+                        {modalOpen && <Modallink setOpenModal={setModalOpen} />}
                     </div>
                     <div className='cadena'>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="border border-black ml-4">
@@ -42,17 +51,24 @@ const linking = () => {
                         </svg>
                     </div>
 
-                    <button className='LinkingToken'>
+                    <button
+                        className='LinkingToken'
+                        onClick={() => {
+                            setModalOpen(true);
+                        }}>
+
                         <p className='vlinking'>V-LINKING TOKEN</p>
 
                         <div className='arrow-link'>
                             <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="0.353553" y1="0.621422" x2="5.38297" y2="5.65084" stroke="black"></line><line x1="4.69753" y1="5.67004" x2="9.74641" y2="0.660154" stroke="black"></line></svg>
                         </div>
+
+
                     </button>
                 </div>
                 <div className='botonLink'>
                     <button
-                    >{/* Agrega la lógica para link to nft */}LINK NFT</button>
+                    >{/* Agrega la lógica para link el nft */}LINK NFT</button>
                 </div>
             </div >
             <Iluslink />
@@ -62,4 +78,4 @@ const linking = () => {
     )
 }
 
-export default linking
+export default Linking
