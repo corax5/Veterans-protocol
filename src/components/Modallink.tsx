@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Modallink = ({ setOpenModal }) => {
+interface SetOpenModal {
+  (isOpen: boolean): void; // Function takes a boolean argument and returns nothing (void)
+}
+
+const Modallink = ({ setOpenModal }: { setOpenModal: SetOpenModal }) => {
   return (
     <>
       <div className="modalBackground">
