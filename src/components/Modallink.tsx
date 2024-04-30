@@ -22,7 +22,7 @@ const Modallink = ({ setOpenModal }: { setOpenModal: SetOpenModal }) => {
             </button>
           </div>
           <div className="title">
-            <h4 style={{ fontSize: '20px' }}>
+            <h4>
               Select token to link
 
             </h4>

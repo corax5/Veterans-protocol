@@ -90,6 +90,7 @@ body {
 
 h4 {
   margin-bottom: 7%;
+  font-size: 20px;
 }
 
 .titleCloseBtn {
@@ -356,7 +357,7 @@ h4 {
 
 .form {
   position: absolute;
-  margin-top: -35%;
+  margin-top: -36%;
   margin-left: 39%;
   background-color: whitesmoke;
   width: 400px;
@@ -406,7 +407,7 @@ h4 {
 
 .galery {
   justify-content: center;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   margin-top: 3rem;
 }
 
@@ -793,6 +794,16 @@ h4 {
     margin-left: 5%;
     width: 90%;
   }
+
+  .modalBackground {
+    top: 30%;
+    left: 6%;
+    width: 89%;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -935,9 +946,7 @@ h4 {
     margin-left: -17%;
   }
 
-  .ilust {
-    visibility: hidden
-  }
+
 
   .section2 {
     display: flex;
@@ -979,63 +988,6 @@ h4 {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
-
-  .container {
-    margin-left: 0.5%;
-    margin-right: auto;
-    margin-top: 5%;
-    z-index: 0;
-    position: relative;
-  }
-
-  .ilustracion {
-    top: 38.7%
-  }
-
-  .bubble3-complete {
-    z-index: 1;
-    position: absolute;
-    margin-top: 106%;
-    margin-left: 60%;
-  }
-
-  .bubble-complete2 {
-    z-index: 1;
-    position: absolute;
-    margin-top: 23%;
-    margin-left: -20%;
-  }
-
-  .tables {
-    margin-left: 37%;
-    width: 40%;
-  }
-
-  .form {
-    margin-left: 40%;
-    margin-top: -45%;
-    width: 35%;
-  }
-
-  .ilustlink {
-    width: 100%;
-    top: 5%;
-  }
-
-  .AlphaToken {
-    width: 95%;
-  }
-
-  .LinkingToken {
-    width: 90%;
-  }
-
-  .botonLink {
-    width: 50%;
-    margin-left: 25%;
-  }
-}
 
 @media (min-width: 2560px) and (max-width: 8000px) {
   .ilustracion {

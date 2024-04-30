@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
 import Buttons from '../components/Buttons';
 import Ilustracion from "@/components/Ilustracion";
 import { useState } from "react";
