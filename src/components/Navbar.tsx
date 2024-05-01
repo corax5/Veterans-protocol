@@ -31,8 +31,6 @@ const Navbar = () => {
 
 
 
-
-
     return (
         <>
             <section className="section1 font-extrabold border-b-4  border-black text-center" id="section1">
