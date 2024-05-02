@@ -1008,4 +1008,30 @@ h4 {
     top: 0.25
   }
 
+  @media (min-width: 1600px) {
+    .container {
+      margin-left: 25%;
+    }
+
+    .bubble-complete {
+      z-index: 1;
+      position: absolute;
+      margin-top: 23%;
+      margin-left: 27%;
+    }
+
+    .bubble-complete2 {
+      z-index: 1;
+      position: absolute;
+      margin-top: 20%;
+      margin-left: 14%;
+    }
+
+    .bubble3-complete {
+      z-index: 1;
+      position: absolute;
+      margin-top: 69%;
+      margin-left: 39%;
+    }
+  }
 }
