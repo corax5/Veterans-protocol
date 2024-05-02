@@ -1013,6 +1013,16 @@ h4 {
       margin-left: 25%;
     }
 
+    .section1 {
+      position: relative;
+      z-index: 2;
+    }
+
+    .buttons-top {
+      position: relative;
+      z-index: 2;
+    }
+
     .bubble-complete {
       z-index: 1;
       position: absolute;
@@ -1032,6 +1042,10 @@ h4 {
       position: absolute;
       margin-top: 69%;
       margin-left: 39%;
+    }
+
+    .ilust {
+      z-index: 0;
     }
 
     .ilustlink {
