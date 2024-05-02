@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Ilustracion />
+     
       <Buttons />
       <Bubble1 />
       <Bubble2 />
@@ -38,8 +38,9 @@ export default function Home() {
           </div>
         </Link>
       </div>
-
-      <Footer />
+      <Ilustracion />
+      <Footer /> 
+      
     </>
 
   );

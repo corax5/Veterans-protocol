@@ -238,14 +238,13 @@ h4 {
 
 .ilust {
   border-bottom: 4px solid black;
-}
-
-.ilustracion {
-  object-fit: cover;
-  position: absolute;
-  top: 18%;
+  margin-bottom: -1.5%;
+  margin-top: -125%;
+  position: relative;
   z-index: 1;
 }
+
+
 
 .ilustlink {
   position: absolute;
@@ -603,36 +602,9 @@ h4 {
   text-align: center;
 }
 
-@media (max-width: 320px) {
-  .text-bubble1 {
-    font-size: 14px;
-  }
-
-  .text-bubble2 {
-    width: 16rem;
-    margin-left: 0.5rem;
-    font-size: 9px;
-  }
-
-  .bubble3-title {
-    font-size: 23%;
-  }
-
-  .button-linkventory {
-    width: 100%;
-    margin-right: 10px;
-  }
-
-  .buttons-top {
-    display: flex;
-    margin-bottom: 1rem;
-    justify-content: space-evenly;
-  }
 
 
-}
-
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .section2 {
     margin-top: 1rem;
     display: flex;
@@ -806,7 +778,7 @@ h4 {
   }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 
   .container {
     width: 97%;
@@ -848,11 +820,11 @@ h4 {
   .bubble3-complete {
     z-index: 1;
     position: absolute;
-    margin-top: 236%;
-    margin-left: 12%;
+    margin-top: 229%;
+    margin-left: 18%;
   }
 
-  .ilustracion {
+  .ilust {
     visibility: hidden;
   }
 
@@ -902,7 +874,7 @@ h4 {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1025px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .bubble-complete {
     z-index: 1;
     position: absolute;
@@ -953,11 +925,12 @@ h4 {
     margin-bottom: 1.7rem;
   }
 
-
-  .ilustracion {
-    width: 100%;
-    top: 32.5%;
-    z-index: 1;
+  .ilust {
+    border-bottom: 4px solid black;
+    margin-bottom: -2%;
+    margin-top: -130%;
+    position: relative;
+    z-index: 0;
   }
 
 
@@ -1001,42 +974,33 @@ h4 {
   }
 }
 
+@media only screen and (min-width: 1025px) {
 
-@media (min-width: 2560px) and (max-width: 8000px) {
-  .ilustracion {
-    top: -11.3%;
-    margin-left: 0%;
-
-    width: 2000px;
-  }
-
-  .ilust {
-    border: none;
-  }
 
   .container {
-    margin-left: 26%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .bubble-complete {
     z-index: 1;
     position: absolute;
-    margin-top: 18%;
-    margin-left: 42%;
+    margin-top: 29%;
+    margin-left: 12%;
   }
 
   .bubble-complete2 {
     z-index: 1;
     position: absolute;
-    margin-top: 16%;
-    margin-left: 27%;
+    margin-top: 26%;
+    margin-left: 5%;
   }
 
   .bubble3-complete {
     z-index: 1;
     position: absolute;
-    margin-top: 54%;
-    margin-left: 39%;
+    margin-top: 89%;
+    margin-left: 29%;
   }
 
   .ilust {

@@ -72,7 +72,6 @@ const Linking = () => {
                 </div>
             </div >
             <Iluslink />
-            <Image className='margen' src="/vector9" alt="margen" width="1921" height="1920" />
             <Footer />
         </>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Bubble1 from './Bubble1';
 
 const Viñetas = () => {
     return (
