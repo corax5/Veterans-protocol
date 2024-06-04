@@ -237,18 +237,20 @@ h4 {
 }
 
 .ilust {
-  border-bottom: 4px solid black;
+
   margin-bottom: -1.5%;
   margin-top: -125%;
   position: relative;
   z-index: 1;
 }
 
-
+.vector {
+  transform: translateY(20px);
+}
 
 .ilustlink {
   position: absolute;
-  top: 2.5%;
+  top: 3%;
   z-index: -1;
 }
 
@@ -258,7 +260,7 @@ h4 {
 }
 
 .tables {
-  margin-left: 36%;
+  margin-left: 38%;
   margin-right: 31%;
   margin-bottom: 9.5%;
   width: fit-content;
@@ -271,9 +273,6 @@ h4 {
 .vlinking {
   margin-right: 1.5rem;
 }
-
-
-
 
 .table1 {
   border: 3px solid black;
@@ -357,7 +356,7 @@ h4 {
 .form {
   position: absolute;
   margin-top: -36%;
-  margin-left: 39%;
+  margin-left: 40%;
   background-color: whitesmoke;
   width: 400px;
   height: 250px;
@@ -608,6 +607,10 @@ h4 {
     flex-direction: column-reverse;
   }
 
+  .vector {
+    height: 3px
+  }
+
   .text-link {
 
     font-size: 13px;
@@ -758,6 +761,10 @@ h4 {
     display: none;
   }
 
+  .vector {
+    height: 3px
+  }
+
   .tables {
     margin-left: 5%;
     width: 90%;
@@ -779,6 +786,10 @@ h4 {
   .container {
     width: 97%;
     margin-left: 2%;
+  }
+
+  .vector {
+    height: 4px
   }
 
   .viñeta2 {
@@ -885,6 +896,10 @@ h4 {
     flex-direction: row;
   }
 
+  .vector {
+    height: 1px
+  }
+
   .container {
     width: 98%;
     margin-left: 1%;
@@ -978,6 +993,10 @@ h4 {
     margin-right: 6%;
   }
 
+  .vector {
+    height: 5px
+  }
+
   .bubble-complete {
     z-index: 1;
     position: absolute;
@@ -1020,6 +1039,7 @@ h4 {
 
     .tables {
       margin-left: 35%;
+      margin-bottom: 7.5%;
     }
 
     .buttons-top {
