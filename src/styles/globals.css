@@ -897,7 +897,7 @@ h4 {
   }
 
   .vector {
-    height: 1px
+    height: 4px
   }
 
   .container {
@@ -918,7 +918,7 @@ h4 {
 
   .viñeta3 {
     margin-bottom: 4px;
-    width: 69%;
+    width: 100%;
   }
 
   .bubble3-complete {
@@ -937,7 +937,6 @@ h4 {
   }
 
   .ilust {
-    border-bottom: 4px solid black;
     margin-bottom: -2%;
     margin-top: -130%;
     position: relative;
@@ -1071,7 +1070,7 @@ h4 {
     .ilust {
       z-index: 0;
       width: 80%;
-      margin-bottom: -1%;
+      margin-bottom: -1.1%;
       margin-top: -105%;
       position: relative;
       z-index: 0;
