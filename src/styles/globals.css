@@ -988,8 +988,9 @@ h4 {
 
 
   .container {
-    margin-left: 6%;
+    margin-left: 3%;
     margin-right: 6%;
+    transform: translateX(80px);
   }
 
   .vector {
@@ -1006,15 +1007,15 @@ h4 {
   .bubble-complete2 {
     z-index: 1;
     position: absolute;
-    margin-top: 26%;
-    margin-left: 5%;
+    margin-top: 24%;
+    margin-left: 8%;
   }
 
   .bubble3-complete {
     z-index: 1;
     position: absolute;
     margin-top: 89%;
-    margin-left: 29%;
+    margin-left: 39%;
   }
 
   .ilust {
