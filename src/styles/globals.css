@@ -889,6 +889,10 @@ h4 {
     margin-left: 5%;
   }
 
+  .text-link {
+    width: 48rem;
+  }
+
   .section2 {
     margin-top: 0.5rem;
     display: flex;
@@ -909,23 +913,36 @@ h4 {
     position: relative;
   }
 
+  .bubble-complete {
+    z-index: 1;
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 3%;
+    margin-right: 6%;
+  }
+
+  .text-bubble1 {
+    width: 700px;
+    margin-top: -21%;
+  }
+
   .bubble-complete2 {
     z-index: 1;
     position: absolute;
-    margin-top: 18%;
-    margin-left: -13%;
+    margin-top: 9%;
+    margin-left: -23%;
   }
 
   .viñeta3 {
     margin-bottom: 4px;
-    width: 100%;
+    width: 73%;
   }
 
   .bubble3-complete {
     z-index: 1;
     position: absolute;
-    margin-top: 102%;
-    margin-left: 24%;
+    margin-top: 106%;
+    margin-left: 40%;
   }
 
   .viñeta4 {
@@ -934,6 +951,11 @@ h4 {
 
   .viñeta5 {
     margin-bottom: 1.7rem;
+    margin-left: 1rem;
+  }
+
+  .viñeta6 {
+    margin-left: 1rem;
   }
 
   .ilust {
