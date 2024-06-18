@@ -986,7 +986,7 @@ h4 {
   .form {
     position: absolute;
     margin-top: -69%;
-    margin-left: 23%;
+    margin-left: 20%;
     background-color: whitesmoke;
     width: 500px;
     height: 250px;
@@ -1044,6 +1044,9 @@ h4 {
     width: 2500px;
     top: 0.25
   }
+
+
+
 
   @media (min-width: 1600px) {
     .container {
