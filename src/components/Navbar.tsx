@@ -29,7 +29,7 @@ const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
 
-
+    const [isconnect, setisconnect] = useState(false)
 
     return (
         <>
@@ -63,7 +63,13 @@ const Navbar = () => {
                                 INVENTORY
                             </Link>
                         </div>
-                        <div className="option hover:bg-black  hover:text-white">DISCONECT</div>
+                        <button className="option hover:bg-black  hover:text-white">
+                            {isconnect ? (
+                                <span className="disconnect-button">DISCONNECT</span>
+                            ) : (
+                                <span className="connect-button">CONNECT WALLET</span>
+                            )}
+                        </button>
                     </div>
                 </div>
 
