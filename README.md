@@ -4,16 +4,49 @@
 
 # Veterans E7L
 
-Front end developed for the E7L protocol website of the 'Veterans' NFT collection
+Front end developed for the E7L protocol website of the 'Veterans' NFT collection.
 
+## Tech Stack
+
+**Client:** Next.js, TypeScript, TailwindCSS
+
+## Installation
+
+To install and run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/corax5/Veterans-protocol.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd Veterans-protocol
+    ```
+
+3. Install the dependencies:
+    ```bash
+    yarn install
+    ```
+
+4. Start the development server:
+    ```bash
+    yarn dev
+    ```
+
+The project will be available at `http://localhost:3000`.
+
+## Usage
+
+Instructions for using the project:
+
+1. Access the main page at `http://localhost:3000`.
+2. Navigate through the different sections of the website to explore the functionalities of the E7L protocol.
 
 ## Authors
 
 - [@corax5](https://github.com/corax5)
 
+## Additional Resources
 
-## Tech Stack
-
-**Client:** Nextjs, TypeScript, TailwindCSS
-
-
+- [Production Website (Temporary)](https://veterans-nft.vercel.app)
