@@ -45,7 +45,7 @@ Instructions for using the project:
 
 ## Authors
 
-- [@corax5](https://github.com/corax5)
+- [@icortesdev](https://github.com/icortesdev)
 
 ## Additional Resources
 
