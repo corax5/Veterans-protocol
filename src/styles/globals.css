@@ -607,6 +607,22 @@ h4 {
     flex-direction: column-reverse;
   }
 
+  .viñeta1 {
+    pointer-events: none;
+  }
+
+  .viñeta3 {
+    pointer-events: none;
+  }
+
+  .viñeta4 {
+    pointer-events: none;
+  }
+
+  .viñeta6 {
+    pointer-events: none;
+  }
+
   .vector {
     height: 3px
   }
@@ -786,6 +802,22 @@ h4 {
   .container {
     width: 97%;
     margin-left: 2%;
+  }
+
+  .viñeta1 {
+    pointer-events: none;
+  }
+
+  .viñeta3 {
+    pointer-events: none;
+  }
+
+  .viñeta4 {
+    pointer-events: none;
+  }
+
+  .viñeta6 {
+    pointer-events: none;
   }
 
   .vector {
